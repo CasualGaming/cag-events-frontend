@@ -2,7 +2,6 @@
   "name": "betty-boop",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/CasualGaming/betty-boop",
   "bugs": {
     "url": "https://github.com/CasualGaming/betty-boop/issues"
   },
@@ -12,7 +11,7 @@
     "url": "https://github.com/CasualGaming/betty-boop"
   },
   "dependencies": {
-    "@vesteind/react-scripts-ts-sass": "2.17.0",
+    "@vesteind/react-scripts-ts-sass": "2.17.0-sass2",
     "axios": "^0.18.0",
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
