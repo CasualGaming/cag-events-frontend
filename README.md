@@ -19,3 +19,8 @@ $ docker run -it -p 3000:3000 -v $(pwd)/src:/app/src betty-boop
 $ npm install
 $ npm start
 ```
+
+### Testing
+```bash
+$ npm test
+```
