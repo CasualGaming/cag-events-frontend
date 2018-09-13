@@ -17,7 +17,9 @@ RUN npm rebuild node-sass
 #TODO: prod build
 CMD if [ ${PROD} = true ]; \
 	then \
+	npm install -g serve; \
 	npm run build; \
+	serve -l 3000 build; \
 	else \
 	npm run start; \
 	fi

@@ -24,3 +24,10 @@ $ npm start
 ```bash
 $ npm test
 ```
+
+## Production
+
+```bash
+$ docker build -t betty-boop . --build-arg prod=true
+$ docker run -p 3000:3000 betty-boop
+```
