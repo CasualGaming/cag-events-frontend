@@ -11,7 +11,7 @@
     "url": "https://github.com/CasualGaming/betty-boop"
   },
   "dependencies": {
-    "@vesteind/react-scripts-ts-sass": "2.17.0-sass2",
+    "@vesteind/react-scripts-ts-sass": "2.17.0-boop",
     "axios": "^0.18.0",
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
@@ -24,20 +24,6 @@
     "eject": "react-scripts-ts eject"
   },
   "devDependencies": {
-    "@types/jest": "^23.3.2",
-    "@types/loglevel": "^1.5.3",
-    "@types/node": "^10.9.4",
-    "@types/react": "^16.4.14",
-    "@types/react-dom": "^16.0.7",
-    "@types/react-router-dom": "^4.3.0",
-    "jest-dom": "^1.12.0",
-    "react-testing-library": "^5.0.1",
-    "ts-jest": "^22.4.6",
     "typescript": "^3.0.3"
-  },
-  "jest": {
-    "moduleNameMapper": {
-      "@(.*)$": "<rootDir>/src/$1"
-    }
   }
 }
