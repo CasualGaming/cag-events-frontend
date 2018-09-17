@@ -1,3 +1,11 @@
+
+$verylight: #5C6078;
+$light: #41455A;
+$normal: #252839;
+$dark: #191D33;
+$verydark: #0D1127;
+
+
 .App {
   text-align: center;
 }
@@ -25,4 +33,22 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+
+html, body {
+  /*background-color: #252839 !important;*/
+}
+p {
+  align-content: center;
+  /*background-color: #495285;*/
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 6em;
+}
+p > span {
+  opacity: 0.4;
+  text-align: center;
 }
