@@ -1,27 +1,25 @@
 import * as React from 'react';
-import { StaticContext } from 'react-router';
-import { Route, RouteComponentProps } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 
-class Status extends React.Component<any> {
+interface IStatusProps {
+  code: number,
+  children: JSX.Element
+}
 
-    public render() {
-        return (
-            <Route render={this.testRender} />
-        )
-    }
+const Status: React.SFC<IStatusProps> = (props) => {
 
-    private testRender: (props: RouteComponentProps<any, StaticContext, any>) => React.ReactNode = ({staticContext}) => {
-        if (staticContext) {
-            staticContext = this.props.code;
-        }
-        return (
-            <div>
-                <h1>{this.props.code}</h1>
-                {this.props.children}
-            </div>
-        )
-    }
+  const testRender: (rcprops: any) => React.ReactNode = (rcprops) => {
+    return (
+      <div>
+        <h1>{props.code}</h1>
+        {props.children}
+      </div>
+    )
+  }
 
+  return (
+    <Route render={testRender} />
+  )
 }
 
 export default Status;
