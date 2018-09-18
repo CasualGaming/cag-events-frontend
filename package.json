@@ -11,12 +11,17 @@
     "url": "https://github.com/CasualGaming/betty-boop"
   },
   "dependencies": {
-    "@vesteind/react-scripts-ts-sass": "2.17.0-boop",
-    "axios": "^0.18.0",
+    "@cagolini/cag-react-scripts": "2.17.0-boop",
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
+    "react-redux": "^5.0.7",
     "react-router-dom": "^4.3.1",
-    "semantic-ui-react": "^0.82.5"
+    "react-router-redux": "^4.0.8",
+    "redux": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-observable": "^1.0.0",
+    "semantic-ui-react": "^0.82.5",
+    "typesafe-actions": "^2.0.4"
   },
   "scripts": {
     "start": "react-scripts-ts start",
