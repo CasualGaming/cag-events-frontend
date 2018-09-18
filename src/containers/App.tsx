@@ -1,5 +1,5 @@
-import HomePage from '@/components/HomePage';
 import NoMatch from '@/components/NoMatch';
+import HomePage from '@/containers/HomePage';
 import * as React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.scss';
