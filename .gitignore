@@ -19,7 +19,7 @@
 .env.production.local
 
 #JetBrains
-.idea/
+/.idea
 
 npm-debug.log*
 yarn-debug.log*
