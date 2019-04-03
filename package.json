@@ -7,9 +7,23 @@
     "@types/node": "11.12.2",
     "@types/react": "16.8.10",
     "@types/react-dom": "16.8.3",
+    "@types/react-router-redux": "^5.0.18",
+    "@types/redux-logger": "^3.0.7",
+    "keycloak-js": "^5.0.0",
+    "node-sass": "^4.11.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^5.0.0",
+    "react-router-redux": "^4.0.8",
     "react-scripts": "2.1.8",
+    "redux": "^4.0.1",
+    "redux-actions": "^2.6.5",
+    "redux-logger": "^3.0.6",
+    "redux-promise": "^0.6.0",
+    "redux-thunk": "^2.3.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.86.0",
     "typescript": "3.4.1"
   },
   "scripts": {
@@ -26,5 +40,18 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "@types/enzyme": "^3.9.1",
+    "@types/enzyme-adapter-react-16": "^1.0.5",
+    "@types/react-redux": "^7.0.6",
+    "@types/react-router-dom": "^4.3.1",
+    "@types/redux-actions": "^2.6.0",
+    "@types/redux-immutable-state-invariant": "^2.1.0",
+    "@types/redux-promise": "^0.5.28",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.11.2",
+    "react-addons-test-utils": "^15.6.2",
+    "redux-immutable-state-invariant": "^2.1.0"
+  }
 }
