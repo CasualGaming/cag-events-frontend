@@ -1,4 +1,5 @@
 # CaG Events Front-End
+Front-end for [CaG Events](https://github.com/CasualGaming/cag-events).
 
 ## Requirements
 
