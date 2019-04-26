@@ -1,4 +1,4 @@
-# cag-events-frontend
+# CaG Events Front-End
 
 ## Requirements
 
