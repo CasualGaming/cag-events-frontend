@@ -42,3 +42,6 @@ $ npm test --watchAll
 $ docker build -t cag-event-frontend . --build-arg prod=true
 $ docker run -p 3000:3000 cag-event-frontend
 ```
+
+## License
+This project is licensed under GPLv3, see LICENSE for the full license text.
