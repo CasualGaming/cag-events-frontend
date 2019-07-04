@@ -6,6 +6,8 @@
 # CaG Events Front-End
 Front-end for [CaG Events](https://github.com/CasualGaming/cag-events).
 
+- [Snyk](https://snyk.io/test/github/CasualGaming/cag-events-frontend)
+
 ## Requirements
 
 Download the lates versions of the following software
